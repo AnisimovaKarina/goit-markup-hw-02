@@ -36,11 +36,12 @@ body{
 
 .logo{
     color: var(--logo-header);
+
     text-decoration: none;
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -50,6 +51,7 @@ body{
 
 .site-nav .link{
     color: var(--title-text-color);
+
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -67,6 +69,7 @@ body{
 
 .adress-header .link{
     color: var(--primary-text-color);
+
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -96,10 +99,9 @@ body{
     color: var(--acent-text-color);
     background-color: var(--acent-color);
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     border: none;
     cursor: pointer;
@@ -107,7 +109,7 @@ body{
 
 .corporation-caption{
     color: var(--title-text-color);
-    text-transform: uppercase;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -116,13 +118,15 @@ body{
 }
 .corporation-text{
     color: var(--primary-text-color);
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.skills-hidden{
+.skills-hidden,
+.team-hidden{
     color: var(--title-text-color);
+
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -132,15 +136,6 @@ body{
 }
 .team{
     background-color: var(--section-bottom);
-}
-.team-hidden{
-    color: var(--title-text-color);
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-list .link{
@@ -159,25 +154,24 @@ body{
 
 .team-text{
     color: var(--primary-text-color);
+
     text-align: center;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-                                    /*FOOTER*/ //////////////////////////                                          
+                                    /*FOOTER*/                                        
 
-.footer .nav{
+.footer{
     background-color: var(--background-container);
 }
 
 .logo-footer{
     color: var(--acent-text-color);
+
     text-decoration: none;
     font-family: 'raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -186,9 +180,9 @@ body{
 
 .nav .nav-address{
     color: var(--acent-text-color);
+
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -203,7 +197,6 @@ body{
     color: var(--footer-text);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -214,14 +207,19 @@ body{
     color: var(--acent-color);
 }
 
-/////////////////////////////////////*PORTFOLIO*///////////////////////////
+/*PORTFOLIO*/
 
-.button{
+.portfolio-nav .button.current {
+    color: var(--acent-text-color);
+    background-color: var(--acent-color);
+
+}
+
+.portfolio-nav .button{
     color: var(--title-text-color);
     background-color: var(--section-bottom);
     border: none;
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -230,19 +228,6 @@ body{
     cursor: pointer;
 }
 
-.portfolio-nav .button.current-btn{
-    color: var(--acent-text-color);
-    background-color: var(--acent-color);
-    border: none;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-}
 .portfolio-nav .button:hover,
 .portfolio-nav .button:focus{
     color: var(--acent-text-color);
@@ -265,8 +250,6 @@ body{
 .portfolio-text{
     color: var(--primary-text-color);
     text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
